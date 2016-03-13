@@ -1,0 +1,499 @@
+{
+  "data": {
+    "OBJECT_ID": 14263,
+    "DOCUMENT_ID": "aeb41e96-424b-4655-8d43-39a7746c46f7",
+    "SERVICE_CODE": "CE6D8E0E27DA11E2962FC1DB6088709B00000000",
+    "OBJECT_TYPE_CODE": "D2B5132E27DA11E28444C2DB6088709B00000000",
+    "SENT_DATE": "2015-02-16 13:10:55",
+    "SENT_DATE_TZ": "+02:00",
+    "CAPTURE_DATE": "2016-02-16 23:02:05",
+    "CAPTURE_DATE_TZ": "+03:00",
+    "INSERT_DATE": "2016-02-16 23:02:06.561336",
+    "OBJECT_SIZE": 2880033,
+    "PREVIEW_DATA": "{\"subject\":\" Турнир по настольному теннису  -  Финал 18 февраля!\"}",
+    "ACTION": "A0CD9DD9551E92DF51D744C452BB6C2A7D2DF2C0",
+    "VERDICT": "Allowed",
+    "USER_DECISION": "NotProcessed",
+    "VIOLATION_LEVEL": "No",
+    "FORWARD_STATE_CODE": "Sent",
+    "FORWARD_DATE": "2016-02-17 02:02:06",
+    "CAPTURE_SERVER_IP": "127.0.0.1",
+    "CAPTURE_SERVER_HOSTNAME": "user.test.ru",
+    "ATTACHMENT_COUNT": 6,
+    "OBJECT_ERROR_EXISTS": 0,
+    "GARBAGE_TRAFFIC": 0,
+    "PROTOCOL": "A324CCB227DA11E2A8D99FDB6088709B00000000",
+    "TBS_TYPE": 0,
+    "TBS_ID": 28,
+    "PART_DATE": "2016-02-16",
+    "sendersMerged": [
+      [
+        {
+          "OBJECT_PARTICIPANT_ID": 20633,
+          "IDENTITY_TYPE": "sender",
+          "PARTICIPANT_TYPE": "person",
+          "PARTICIPANT_ID": "933214693CBFFA4EA5A47C2C27606AEA",
+          "OBJECT_ID": 14263,
+          "TBS_ID": 28,
+          "DISPLAY_NAME": "User1",
+          "IS_DELETED": 0,
+          "keys": [
+            {
+              "OBJECT_PARTICIPANT_ID": 20633,
+              "OLI_ID": 48642,
+              "OBJECT_ID": 14263,
+              "IDENTITY_TYPE": "sender",
+              "KEY": "user1@test.com",
+              "KEY_TYPE": "email",
+              "KEY_PRIORITY": 2,
+              "PARTICIPANT_COUNT": 1,
+              "TBS_ID": 28
+            }
+          ]
+        }
+      ]
+    ],
+    "senders_keys": [
+      {
+        "OLI_ID": 48640,
+        "OBJECT_ID": 14263,
+        "IDENTITY_TYPE": "sender",
+        "KEY": "root@test_server.ru",
+        "KEY_TYPE": "email",
+        "KEY_PRIORITY": 1,
+        "PARTICIPANT_COUNT": 0,
+        "TBS_ID": 28
+      }
+    ],
+    "recipientsMerged": [
+      [
+        {
+          "OBJECT_PARTICIPANT_ID": 20630,
+          "IDENTITY_TYPE": "recipient",
+          "PARTICIPANT_TYPE": "group",
+          "PARTICIPANT_ID": "05E14F32508BEA459C2EDA831FDA56D2",
+          "OBJECT_ID": 14263,
+          "TBS_ID": 28,
+          "DISPLAY_NAME": "User3",
+          "IS_DELETED": 0,
+          "keys": [
+            {
+              "OBJECT_PARTICIPANT_ID": 20630,
+              "OLI_ID": 48638,
+              "OBJECT_ID": 14263,
+              "IDENTITY_TYPE": "recipient",
+              "KEY": "user3@test.com",
+              "KEY_TYPE": "email",
+              "KEY_PRIORITY": 1,
+              "PARTICIPANT_COUNT": 0,
+              "TBS_ID": 28
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "OBJECT_PARTICIPANT_ID": 20632,
+          "IDENTITY_TYPE": "recipient",
+          "PARTICIPANT_TYPE": "group",
+          "PARTICIPANT_ID": "88F20A6611109F43BD648A2B674A9DFA",
+          "OBJECT_ID": 14263,
+          "TBS_ID": 28,
+          "DISPLAY_NAME": "User2",
+          "IS_DELETED": 0,
+          "keys": [
+            {
+              "OBJECT_PARTICIPANT_ID": 20632,
+              "OLI_ID": 48639,
+              "OBJECT_ID": 14263,
+              "IDENTITY_TYPE": "recipient",
+              "KEY": "user2@test.com",
+              "KEY_TYPE": "email",
+              "KEY_PRIORITY": 1,
+              "PARTICIPANT_COUNT": 0,
+              "TBS_ID": 28
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "OBJECT_PARTICIPANT_ID": 20631,
+          "IDENTITY_TYPE": "recipient",
+          "PARTICIPANT_TYPE": "group",
+          "PARTICIPANT_ID": "F3FDD6C8843807418961FDDBB31C5D1E",
+          "OBJECT_ID": 14263,
+          "TBS_ID": 28,
+          "DISPLAY_NAME": "User1",
+          "IS_DELETED": 0,
+          "keys": [
+            {
+              "OBJECT_PARTICIPANT_ID": 20631,
+              "OLI_ID": 48641,
+              "OBJECT_ID": 14263,
+              "IDENTITY_TYPE": "recipient",
+              "KEY": "users@test.com",
+              "KEY_TYPE": "email",
+              "KEY_PRIORITY": 1,
+              "PARTICIPANT_COUNT": 0,
+              "TBS_ID": 28
+            }
+          ]
+        }
+      ]
+    ],
+    "recipients_keys": [],
+    "workstationsMerged": [],
+    "workstations_keys": [],
+    "lists": [],
+    "tags": [],
+    "policies": [],
+    "protected_documents": [],
+    "headers": [
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "header",
+        "NAME": "source_ip",
+        "VALUE": "127.0.0.1",
+        "TBS_ID": 28,
+        "TYPE": "string"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "header",
+        "NAME": "workstation_type",
+        "VALUE": "computer",
+        "TBS_ID": 28,
+        "TYPE": "enum"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "property",
+        "NAME": "from",
+        "VALUE": "User1 <User1@test.com>",
+        "OBJECT_CONTENT_ID": 70165,
+        "TBS_ID": 28,
+        "TYPE": "string"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "property",
+        "NAME": "to",
+        "VALUE": "User1 <User1@test.com>, User2 <User2@test.com>, User3 <User3@test.com>",
+        "OBJECT_CONTENT_ID": 70165,
+        "TBS_ID": 28,
+        "TYPE": "string"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "property",
+        "NAME": "subject",
+        "VALUE": " Турнир по настольному теннису  -  Финал 18 февраля!",
+        "OBJECT_CONTENT_ID": 70165,
+        "TBS_ID": 28,
+        "TYPE": "string"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "property",
+        "NAME": "header_content_id",
+        "VALUE": "<image002.png@01D049F4.8979E7A0>",
+        "OBJECT_CONTENT_ID": 70168,
+        "TBS_ID": 28,
+        "TYPE": "string"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "property",
+        "NAME": "header_content_id",
+        "VALUE": "<image007.png@01D049F4.8979E7A0>",
+        "OBJECT_CONTENT_ID": 70169,
+        "TBS_ID": 28,
+        "TYPE": "string"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "property",
+        "NAME": "header_content_id",
+        "VALUE": "<image003.emz@01D04A01.D48CE2D0>",
+        "OBJECT_CONTENT_ID": 70170,
+        "TBS_ID": 28,
+        "TYPE": "string"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "property",
+        "NAME": "header_content_id",
+        "VALUE": "<image005.png@01D04A01.D48CE2D0>",
+        "OBJECT_CONTENT_ID": 70173,
+        "TBS_ID": 28,
+        "TYPE": "string"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "property",
+        "NAME": "header_content_id",
+        "VALUE": "<image006.emz@01D04A01.D48CE2D0>",
+        "OBJECT_CONTENT_ID": 70174,
+        "TBS_ID": 28,
+        "TYPE": "string"
+      },
+      {
+        "OBJECT_ID": 14263,
+        "KIND": "property",
+        "NAME": "header_content_id",
+        "VALUE": "<image008.png@01D04A01.D48CE2D0>",
+        "OBJECT_CONTENT_ID": 70177,
+        "TBS_ID": 28,
+        "TYPE": "string"
+      }
+    ],
+    "content": {
+      "OBJECT_CONTENT_ID": "70165",
+      "PARENT_CONTENT_ID": null,
+      "OBJECT_ID": "14263",
+      "KIND": "inline",
+      "IS_TEXT": "0",
+      "FILE_NAME": null,
+      "MIME": "email",
+      "ENCRYPTED": "0",
+      "CONTENT_OFFSET_STORED": "0",
+      "CONTENT_SIZE_STORED": "2880033",
+      "CONTENT_SIZE": "2880033",
+      "CHILDREN_COUNT": "7",
+      "LEFT_KEY": "1",
+      "RIGHT_KEY": "26",
+      "CONTENT_LEVEL": "0",
+      "TBS_ID": "28",
+      "children": [
+        {
+          "OBJECT_CONTENT_ID": "70166",
+          "PARENT_CONTENT_ID": "70165",
+          "OBJECT_ID": "14263",
+          "KIND": "inline",
+          "IS_TEXT": "0",
+          "FILE_NAME": null,
+          "MIME": "text/html",
+          "ENCRYPTED": "0",
+          "CONTENT_OFFSET_STORED": "2880033",
+          "CONTENT_SIZE_STORED": "16570",
+          "CONTENT_SIZE": "16570",
+          "CHILDREN_COUNT": "1",
+          "LEFT_KEY": "2",
+          "RIGHT_KEY": "5",
+          "CONTENT_LEVEL": "1",
+          "TBS_ID": "28",
+          "children": [
+            {
+              "OBJECT_CONTENT_ID": "70167",
+              "PARENT_CONTENT_ID": "70166",
+              "OBJECT_ID": "14263",
+              "KIND": "inline",
+              "IS_TEXT": "1",
+              "FILE_NAME": null,
+              "MIME": "text/plain",
+              "ENCRYPTED": "0",
+              "CONTENT_OFFSET_STORED": "52",
+              "CONTENT_SIZE_STORED": "15316",
+              "CONTENT_SIZE": "16570",
+              "CHILDREN_COUNT": "0",
+              "LEFT_KEY": "3",
+              "RIGHT_KEY": "4",
+              "CONTENT_LEVEL": "2",
+              "TBS_ID": "28"
+            }
+          ]
+        },
+        {
+          "OBJECT_CONTENT_ID": "70168",
+          "PARENT_CONTENT_ID": "70165",
+          "OBJECT_ID": "14263",
+          "KIND": "child",
+          "IS_TEXT": "0",
+          "FILE_NAME": "image002.png",
+          "MIME": "image/png",
+          "ENCRYPTED": "0",
+          "CONTENT_OFFSET_STORED": "2896603",
+          "CONTENT_SIZE_STORED": "217044",
+          "CONTENT_SIZE": "217044",
+          "CHILDREN_COUNT": "0",
+          "LEFT_KEY": "6",
+          "RIGHT_KEY": "7",
+          "CONTENT_LEVEL": "1",
+          "TBS_ID": "28"
+        },
+        {
+          "OBJECT_CONTENT_ID": "70169",
+          "PARENT_CONTENT_ID": "70165",
+          "OBJECT_ID": "14263",
+          "KIND": "child",
+          "IS_TEXT": "0",
+          "FILE_NAME": "image007.png",
+          "MIME": "image/png",
+          "ENCRYPTED": "0",
+          "CONTENT_OFFSET_STORED": "3113647",
+          "CONTENT_SIZE_STORED": "218290",
+          "CONTENT_SIZE": "218290",
+          "CHILDREN_COUNT": "0",
+          "LEFT_KEY": "8",
+          "RIGHT_KEY": "9",
+          "CONTENT_LEVEL": "1",
+          "TBS_ID": "28"
+        },
+        {
+          "OBJECT_CONTENT_ID": "70170",
+          "PARENT_CONTENT_ID": "70165",
+          "OBJECT_ID": "14263",
+          "KIND": "child",
+          "IS_TEXT": "0",
+          "FILE_NAME": "image003.emz",
+          "MIME": "application/gzip",
+          "ENCRYPTED": "0",
+          "CONTENT_OFFSET_STORED": "3331937",
+          "CONTENT_SIZE_STORED": "97742",
+          "CONTENT_SIZE": "97742",
+          "CHILDREN_COUNT": "1",
+          "LEFT_KEY": "10",
+          "RIGHT_KEY": "15",
+          "CONTENT_LEVEL": "1",
+          "TBS_ID": "28",
+          "children": [
+            {
+              "OBJECT_CONTENT_ID": "70171",
+              "PARENT_CONTENT_ID": "70170",
+              "OBJECT_ID": "14263",
+              "KIND": "inline",
+              "IS_TEXT": "0",
+              "FILE_NAME": "attach_TKQsV8~",
+              "MIME": "text/emf",
+              "ENCRYPTED": "0",
+              "CONTENT_OFFSET_STORED": "3429679",
+              "CONTENT_SIZE_STORED": "1308520",
+              "CONTENT_SIZE": "1308520",
+              "CHILDREN_COUNT": "1",
+              "LEFT_KEY": "11",
+              "RIGHT_KEY": "14",
+              "CONTENT_LEVEL": "2",
+              "TBS_ID": "28",
+              "children": [
+                {
+                  "OBJECT_CONTENT_ID": "70172",
+                  "PARENT_CONTENT_ID": "70171",
+                  "OBJECT_ID": "14263",
+                  "KIND": "inline",
+                  "IS_TEXT": "1",
+                  "FILE_NAME": null,
+                  "MIME": "text/plain",
+                  "ENCRYPTED": "0",
+                  "CONTENT_OFFSET_STORED": "15368",
+                  "CONTENT_SIZE_STORED": "68",
+                  "CONTENT_SIZE": "112",
+                  "CHILDREN_COUNT": "0",
+                  "LEFT_KEY": "12",
+                  "RIGHT_KEY": "13",
+                  "CONTENT_LEVEL": "3",
+                  "TBS_ID": "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "OBJECT_CONTENT_ID": "70173",
+          "PARENT_CONTENT_ID": "70165",
+          "OBJECT_ID": "14263",
+          "KIND": "child",
+          "IS_TEXT": "0",
+          "FILE_NAME": "image005.png",
+          "MIME": "image/png",
+          "ENCRYPTED": "0",
+          "CONTENT_OFFSET_STORED": "4738199",
+          "CONTENT_SIZE_STORED": "72811",
+          "CONTENT_SIZE": "72811",
+          "CHILDREN_COUNT": "0",
+          "LEFT_KEY": "16",
+          "RIGHT_KEY": "17",
+          "CONTENT_LEVEL": "1",
+          "TBS_ID": "28"
+        },
+        {
+          "OBJECT_CONTENT_ID": "70174",
+          "PARENT_CONTENT_ID": "70165",
+          "OBJECT_ID": "14263",
+          "KIND": "child",
+          "IS_TEXT": "0",
+          "FILE_NAME": "image006.emz",
+          "MIME": "application/gzip",
+          "ENCRYPTED": "0",
+          "CONTENT_OFFSET_STORED": "4811010",
+          "CONTENT_SIZE_STORED": "829312",
+          "CONTENT_SIZE": "829312",
+          "CHILDREN_COUNT": "1",
+          "LEFT_KEY": "18",
+          "RIGHT_KEY": "23",
+          "CONTENT_LEVEL": "1",
+          "TBS_ID": "28",
+          "children": [
+            {
+              "OBJECT_CONTENT_ID": "70175",
+              "PARENT_CONTENT_ID": "70174",
+              "OBJECT_ID": "14263",
+              "KIND": "inline",
+              "IS_TEXT": "0",
+              "FILE_NAME": "attach_ldGfLs~",
+              "MIME": "text/emf",
+              "ENCRYPTED": "0",
+              "CONTENT_OFFSET_STORED": "5640322",
+              "CONTENT_SIZE_STORED": "1815912",
+              "CONTENT_SIZE": "1815912",
+              "CHILDREN_COUNT": "1",
+              "LEFT_KEY": "19",
+              "RIGHT_KEY": "22",
+              "CONTENT_LEVEL": "2",
+              "TBS_ID": "28",
+              "children": [
+                {
+                  "OBJECT_CONTENT_ID": "70176",
+                  "PARENT_CONTENT_ID": "70175",
+                  "OBJECT_ID": "14263",
+                  "KIND": "inline",
+                  "IS_TEXT": "1",
+                  "FILE_NAME": null,
+                  "MIME": "text/plain",
+                  "ENCRYPTED": "0",
+                  "CONTENT_OFFSET_STORED": "15436",
+                  "CONTENT_SIZE_STORED": "1245",
+                  "CONTENT_SIZE": "2209",
+                  "CHILDREN_COUNT": "0",
+                  "LEFT_KEY": "20",
+                  "RIGHT_KEY": "21",
+                  "CONTENT_LEVEL": "3",
+                  "TBS_ID": "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "OBJECT_CONTENT_ID": "70177",
+          "PARENT_CONTENT_ID": "70165",
+          "OBJECT_ID": "14263",
+          "KIND": "child",
+          "IS_TEXT": "0",
+          "FILE_NAME": "image008.png",
+          "MIME": "image/png",
+          "ENCRYPTED": "0",
+          "CONTENT_OFFSET_STORED": "7456234",
+          "CONTENT_SIZE_STORED": "649779",
+          "CONTENT_SIZE": "649779",
+          "CHILDREN_COUNT": "0",
+          "LEFT_KEY": "24",
+          "RIGHT_KEY": "25",
+          "CONTENT_LEVEL": "1",
+          "TBS_ID": "28"
+        }
+      ]
+    },
+    "perimeters_routes": []
+  }
+}

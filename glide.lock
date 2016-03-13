@@ -1,0 +1,29 @@
+hash: 66c8902b80731764eacf5fcc347e6037fae181677774393f16eb265d7b90727d
+updated: 2016-02-26T15:27:12.953039369+03:00
+imports:
+- name: github.com/golang/protobuf
+  version: 552c7b9542c194800fd493123b3798ef0a832032
+  subpackages:
+  - proto
+- name: github.com/tarantool/go-tarantool
+  version: e680762df2189091e24ed01e282ca091ccab8563
+- name: golang.org/x/net
+  version: 6acef71eb69611914f7a30939ea9f6e194c78172
+  subpackages:
+  - context
+- name: google.golang.org/appengine
+  version: 6a436539be38c296a8075a871cc536686b458371
+  subpackages:
+  - datastore
+  - internal
+  - internal/datastore
+  - internal/app_identity
+  - internal/modules
+  - internal/base
+  - internal/log
+  - internal/remote_api
+- name: gopkg.in/vmihailenco/msgpack.v2
+  version: 775d4b0cf44d799d42a1f6fded02252340f4e33d
+  subpackages:
+  - codes
+devImports: []
